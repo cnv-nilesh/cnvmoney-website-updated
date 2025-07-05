@@ -1,0 +1,235 @@
+.PMSnAIF-mainContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.AIF-mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.AIF-main {
+  max-width: 1200px;
+}
+
+.AIF-Container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: rgba(255, 255, 255, 0.507);
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15); */
+  padding: 20px;
+  margin: 0px 20px 20px 20px;
+}
+
+.tabs-container {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
+.tab {
+  cursor: pointer;
+  font-size: 18px;
+  /* font-weight: bolder; */
+  margin: 0px 20px 0px 20px;
+  position: relative;
+}
+
+.tab.active {
+  color: #fff;
+  background-color: #0143a2;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+
+
+}
+
+
+
+.AIF-mainContainer h1 {
+  font-size: 18px;
+  /* font-weight: bolder; */
+  /* transform: skewX(-0.06turn); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.AIF-mainContainer h2 {
+  font-size: 18px;
+  /* font-weight: bolder; */
+
+
+}
+
+.header_atf {
+  display: flex;
+  align-items: center;
+
+
+}
+
+.AIF-mainContainer h3 {
+  font-size: 16px;
+
+}
+
+.AIF-mainContainer p {
+  font-size: 15px;
+
+}
+
+.AIF-mainFirst {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.AIF-mainFirst h1 {
+  font-size: 18px;
+  /* font-weight: bolder; */
+}
+
+.AIF-containerInner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.AIF-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.AIF-btn {
+  margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
+  background-color: #fff;
+  border-radius: 10px 10px 10px 10px;
+  font-size: 15px;
+}
+
+.AIF-btn:hover {
+  --tw-drop-shadow: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.AIF-mainFirst .pensil {
+  margin: 0px 0px 20px 0px;
+  width: 200px;
+  height: 15px;
+}
+
+.AIF-FAQ {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.507);
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  margin: 0px 20px 20px 20px;
+}
+
+.AIF-FAQHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.AIF-FAQHeader .pensil {
+  margin: 0px 0px 20px 0px;
+  width: 100px;
+  height: 15px;
+}
+
+.AIF-FAQ h2 {
+  font-size: 16px;
+  color: #e21c1c;
+
+
+
+}
+
+.AIF-FAQ ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.AIF-FAQ ul li {
+  display: flex;
+  flex-direction: row;
+}
+
+.PMS-mainContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.PMS-main {
+  max-width: 1200px;
+}
+
+.PMS-Container {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  /* background-color: rgba(255, 255, 255, 0.507);
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15); */
+  padding: 20px;
+  margin: 0px 20px 20px 20px;
+}
+
+.PMS-Container h2 {
+  font-size: 18px;
+  /* font-weight: bolder; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.PMS-Container ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.PMS-Container ul li {
+  /* display: flex;
+  flex-direction: row; */
+}
+
+.header_background {
+  padding-left: 15px;
+  padding-right: 15px;
+
+  /* background-image: linear-gradient(to right top,
+      #e21c1c,
+      #d90054,
+      #b50080,
+      #79309d,
+      #0143a2);
+  color: white; */
+  /* font-weight: 500; */
+  /* transform: skewX(-0.06turn); */
+}

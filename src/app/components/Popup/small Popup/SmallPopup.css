@@ -1,0 +1,74 @@
+.SmallModal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 300px;
+  height: 300px;
+  width: 100%;
+  z-index: 9999;
+}
+
+.SmallModal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.192);
+  z-index: 9998;
+}
+
+.SmallModal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  /* font-weight: bolder; */
+  color: #082c66;
+}
+
+.SmallModal-header .close-btn {
+  font-size: 14px;
+  padding: 5px 10px 5px 10px;
+  background-color: #082c66;
+  border-radius: 50%;
+  color: #fff;
+  font-weight: 400;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.SmallModal-header .close-btn:hover {
+  color: #ffffff;
+  background-color: #e21c1c;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.SmallModal-header h2 {
+  margin: 0;
+
+
+}
+
+.SmallModal-header button {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.SmallModal-content {
+  margin-bottom: 20px;
+  overflow-y: auto;
+  max-height: 90%;
+}
+
+.SmallModal-content p {
+  margin: 0;
+}

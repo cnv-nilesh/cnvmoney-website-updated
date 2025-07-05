@@ -1,0 +1,120 @@
+ .ComingSoon {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+ }
+
+
+ .ComingSoon-main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   max-width: 1200px;
+   background-color: rgba(255, 255, 255, 0.507);
+   border-radius: 20px 20px 20px 20px;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+   margin: 20px;
+   padding: 20px;
+ }
+
+ .ComingSoon-main h1 {
+   font-size: 20px;
+   font-weight: bolder;
+   margin-bottom: 10px;
+ }
+
+ .ComingSoon-main p {
+   font-size: 16px;
+   font-weight: 500;
+ }
+
+ .ComingSoon-main h3 {
+   font-size: 16px;
+   font-weight: bold;
+   margin: 10px 0px 10px 0px;
+ }
+
+ .ComingSoonTC {
+   text-align: left;
+ }
+
+ .loan_header {
+   font-size: 16px;
+   font-weight: 500;
+   color: rgb(100, 100, 100);
+ }
+
+ .loan_para {
+   font-size: 13px;
+   font-weight: 400;
+   color: gray;
+ }
+
+ .card_para {
+   margin-top: 1rem;
+   color: gray;
+   font-size: 14px;
+   font-weight: 500;
+   cursor: pointer;
+   transition: all .2s ease-in-out;
+   /* position: relative;
+   top: 1rem; */
+
+
+ }
+
+ .card_para:hover {
+   color: rgb(16, 57, 241);
+ }
+
+ .card_container {
+   align-items: center;
+   display: flex;
+   position: relative;
+
+ }
+
+ .arrow:hover {
+   color: rgb(16, 57, 241);
+   transform: scale(1.1);
+ }
+
+
+
+ .hover_effect {
+   cursor: pointer;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   background-image: linear-gradient(to right top, #ffffff, #fafaff, #f4f5ff, #ecf0ff, #e4ecff);
+   /* transition: all .2s ease-in-out; */
+
+ }
+
+ .hover_effect:hover {
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   /* transform: scale(0.9); */
+ }
+
+ .card_main_container {
+   display: flex;
+   justify-content: center;
+   /* align-items: center; */
+   flex-direction: row;
+   flex-wrap: wrap;
+ }
+
+ .close_loan_btn {
+   font-size: 14px;
+   padding: 5px 10px 5px 10px;
+   background-color: #082c66;
+   border-radius: 50%;
+   color: #fff;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+ }
+
+
+
+ .close_loan_btn:hover {
+   background-color: #e21c1c;
+ }

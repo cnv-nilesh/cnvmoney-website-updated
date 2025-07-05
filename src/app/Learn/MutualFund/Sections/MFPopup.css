@@ -1,0 +1,28 @@
+.MFPopup h1 {
+    font-size: 16px;
+    color: #e21c1c;
+    font-weight: 400;
+    margin: 5px 0px 5px 0px;
+}
+
+.MFPopup p {
+    font-size: 14px;
+    /* font-weight: 400; */
+}
+
+.MFPopup ul {
+    padding: 10px 0px 10px 0px;
+}
+
+.MFPopup ul li {
+    font-size: 14px;
+    /* font-weight: 600; */
+    display: flex;
+    flex-direction: row;
+}
+
+.MFPopup ul li .PointBlueImg {
+    width: 10px;
+    height: 10px;
+    margin: 8px 10px 0px 10px;
+}

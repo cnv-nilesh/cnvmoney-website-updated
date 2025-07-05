@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 141.73 141.73" style="background-color:transparent;">
+  <defs>
+    <style>.cls-1,.cls-2{fill:#fff;}.cls-2,.cls-3{stroke:#4361ad;stroke-miterlimit:10;stroke-width:2.5px;}.cls-3{fill:none;}</style>
+  </defs>
+  <rect class="cls-1" width="141.73" height="141.73" fill="none"/>
+  <rect class="cls-2" x="33.85" y="54.19" width="72" height="40.97" rx="7.28"/>
+  <rect class="cls-2" x="33.85" y="45.65" width="72" height="33.92" rx="6.62"/>
+  <path class="cls-2" d="M60.16,34.15H80a4.06,4.06,0,0,1,4.06,4.06v7.44a0,0,0,0,1,0,0h-28a0,0,0,0,1,0,0V38.22A4.06,4.06,0,0,1,60.16,34.15Z"/>
+  <line class="cls-3" x1="63.1" y1="57.17" x2="77.1" y2="57.17"/>
+  <circle class="cls-2" cx="102.26" cy="89.65" r="14.98"/>
+  <circle class="cls-2" cx="102.26" cy="89.65" r="11.79"/>
+  <line class="cls-3" x1="101.35" y1="81.03" x2="101.35" y2="90.56"/>
+  <line class="cls-3" x1="108.97" y1="90.56" x2="100.35" y2="90.56"/>
+</svg>

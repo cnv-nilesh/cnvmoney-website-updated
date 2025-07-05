@@ -1,0 +1,10 @@
+.AIFPopup h1 {
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 5px 0px 5px 0px;
+}
+
+.AIFPopup p {
+    font-size: 14px;
+    /* font-weight: 400; */
+}

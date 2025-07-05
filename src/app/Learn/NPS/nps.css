@@ -1,0 +1,44 @@
+.nps_btn {
+    background-color: #0143a2;
+    padding: 12px;
+    color: white;
+    font-size: 14px;
+}
+
+.nps_para {
+    font-size: 14px;
+}
+
+.nps_heading {
+    font-size: 16px;
+    margin-top: 1rem;
+}
+
+/* @media only screen and (max-width: 1023px) {
+    .content_container {
+        margin-top: 6rem;
+    }
+
+    .dropdown_container {
+        margin-top: -3rem;
+    }
+} */
+
+.link_active {
+    color: #e21c1c;
+    font-weight: 500;
+}
+
+.drop_icon path {
+    color: #ffffff;
+
+}
+
+.content_container {
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar-button {
+    width: 12px;
+}
