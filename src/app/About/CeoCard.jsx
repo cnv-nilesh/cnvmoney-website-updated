@@ -62,7 +62,7 @@ const CeoSection = () => {
               <svg
                 viewBox="0 0 250 200"
                 xmlns="http://www.w3.org/2000/svg"
-                className="absolute w-150 h-100 text-indigo-200"
+                className="absolute w-200 h-100 text-indigo-200"
                 style={{ zIndex: 1 }}
               >
                 <path
@@ -71,7 +71,7 @@ const CeoSection = () => {
                   transform="translate(100 110)"
                 />
               </svg>
-              <div className="relative z-10 w-60 h-60 rounded-2xl overflow-hidden shadow-xl">
+              <div className="relative z-10 w-60 h-60 rounded-2xl overflow-hidden">
                 <Image
                   src={person.imageUrl}
                   alt={person.name}

@@ -20,8 +20,8 @@ function AboutUs() {
             exit={{ opacity: 0, y: 50 }}
             transition={{ duration: 0.5, ease: "easeInOut" }}
           >
-            <div className="CNVPages-main w-full ">
-              <h1 className="text-gray-700">About Us</h1>
+            <div className="CNVPages-main">
+              <h1 className="text-gray-700 text-center">About Us</h1>
               <AboutSection></AboutSection>
 
               <CeoCard></CeoCard>

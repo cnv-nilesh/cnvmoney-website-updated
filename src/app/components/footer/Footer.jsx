@@ -10,6 +10,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -62,64 +63,33 @@ const Footer = () => {
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-1">
-                  <a href="https://flowbite.com/" className="hover:underline">
+                  <a href="/Learn/MutualFund" className="hover:underline">
                     Mutual Funds
                   </a>
                 </li>
                 <li className="mb-1">
-                  <a
-                    href="https://tailwindcss.com/"
-                    className="hover:underline"
-                  >
+                  <Link href="/Learn/StockBroking" className="hover:underline">
                     Stock Broking
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-1">
-                  <a
-                    href="https://tailwindcss.com/"
-                    className="hover:underline"
-                  >
+                  <a href="/Learn/Insurance" className="hover:underline">
                     Insurance
                   </a>
                 </li>
                 <li className="mb-1">
-                  <a
-                    href="https://tailwindcss.com/"
-                    className="hover:underline"
-                  >
+                  <a href="/Learn/FixedDeposite" className="hover:underline">
                     Fixed Deposits
                   </a>
                 </li>
                 <li className="mb-1">
-                  <a
-                    href="https://tailwindcss.com/"
-                    className="hover:underline"
-                  >
+                  <a href="/Learn/PMSnAIF" className="hover:underline">
                     PMS/AIF
                   </a>
                 </li>
                 <li className="mb-1">
-                  <a
-                    href="https://tailwindcss.com/"
-                    className="hover:underline"
-                  >
+                  <a href="/Learn/Loans" className="hover:underline">
                     Loans
-                  </a>
-                </li>
-                <li className="mb-1">
-                  <a
-                    href="https://tailwindcss.com/"
-                    className="hover:underline"
-                  >
-                    Properties
-                  </a>
-                </li>
-                <li className="mb-1">
-                  <a
-                    href="https://tailwindcss.com/"
-                    className="hover:underline"
-                  >
-                    Holidays
                   </a>
                 </li>
               </ul>
@@ -168,7 +138,7 @@ const Footer = () => {
                 Legal
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                <li className="mb-4">
+                <li className="mb-2">
                   <a href="#" className="hover:underline">
                     Privacy Policy
                   </a>
