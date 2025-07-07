@@ -29,6 +29,7 @@ export default function Navbar() {
     { href: "/About", label: "About" },
     { href: "/Blog", label: "Blog" },
     { href: "/Contact", label: "Contact" },
+    { href: "/Calculator", label: "Calculator" },
     { href: "https://cnvmoney.my-portfolio.co.in/app/#/login", label: "Login" },
   ];
 
