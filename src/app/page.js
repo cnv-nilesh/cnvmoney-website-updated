@@ -4,6 +4,7 @@ import Services from "./components/Services/Services";
 import WhyCnv from "./components/WhyCnv/WhyCnv";
 import StatsCounter from "./components/Achivement/Achivement";
 import Partners from "./components/partners/Partners";
+import Amc from "../app/components/AMC/Amc";
 export default function Home() {
   return (
     <>
@@ -22,8 +23,10 @@ export default function Home() {
       <main className="flex items-center justify-center">
         <StatsCounter />
       </main>
-
       <Partners />
+      <main className="flex items-center justify-center mb-5 bg-white w-full">
+        <Amc />
+      </main>
     </>
   );
 }

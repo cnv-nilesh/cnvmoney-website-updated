@@ -1,12 +1,12 @@
 "use client";
 
-import { motion, useAnimation } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
-import { useInView } from "framer-motion";
 import Image from "next/image";
 import achivement from "./achivement.svg";
+import Amc from "../AMC/Amc";
 
-const StatCard = ({ value, label, prefix = "", suffix = "", duration = 2 }) => {
+const StatCard = ({ value, label, prefix = "", suffix = "", duration = 1 }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
   const [count, setCount] = useState(0);
@@ -49,25 +49,21 @@ const StatCard = ({ value, label, prefix = "", suffix = "", duration = 2 }) => {
 const StatsCounter = () => {
   return (
     <div className="w-full flex flex-col items-center justify-center overflow-hidden">
-      <div className="w-full h-auto relative flex justify-center flex-col items-center">
+      <div className="w-full h-auto relative flex justify-center flex-col items-center flex-w">
         <Image
           src={achivement}
           alt="achivement"
           className="w-full object-cover opacity-20 p-2"
         />
+
         <div className="bg-black/90 backdrop-blur-md rounded-xl shadow-md p-6 md:p-8 flex flex-wrap justify-center items-center gap-6 w-11/12 max-w-6xl -mt-16">
-          <StatCard value={50} suffix="K+" label="Instruments" />
+          <StatCard value={11} suffix="+ years" label="Years Experience" />
           <div className="hidden md:block h-12 w-px bg-gray-300"></div>
-          <StatCard value={40} suffix="+" label="Markets" />
+          <StatCard value={5} suffix=" K+" label="Happy Clients" />
           <div className="hidden md:block h-12 w-px bg-gray-300"></div>
-          <StatCard
-            value={50}
-            prefix="$"
-            suffix=" Million"
-            label="Charter Capital"
-          />
+          <StatCard value={5} prefix="" suffix="+ " label="Branches" />
           <div className="hidden md:block h-12 w-px bg-gray-300"></div>
-          <StatCard value={23} suffix=" yrs" label="Of Experience" />
+          <StatCard value={45} suffix="+ " label="AMC Partners" />
         </div>
       </div>
     </div>
