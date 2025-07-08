@@ -43,7 +43,7 @@ const Amc = () => {
   const repeatedImages = [...images, ...images]; // For continuous loop
 
   return (
-    <div className="w-full overflow-hidden py-8 mb-4 mt-4">
+    <div className="w-full overflow-hidden py-8 mb-8 mt-4">
       <h2 className="text-xl md:text-xl font-bold text-center mb-10">
         Our AMCs
       </h2>
@@ -69,7 +69,7 @@ const Amc = () => {
 
       <style jsx>{`
         .animate-slide {
-          animation: scroll 100s linear infinite;
+          animation: scroll 10s linear infinite;
         }
 
         @keyframes scroll {

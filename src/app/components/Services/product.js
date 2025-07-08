@@ -47,20 +47,4 @@ export const cart = [
     Alt: "PMS/AIF",
     Link: "/Learn/PMSnAIF",
   },
-  {
-    id: 7,
-    Image: "./Product Images/Properties.svg",
-    Title: "Properties",
-    Desc: "Real estate is defined as the land and any permanent structures, like a home, or improvements attached to the land, whether natural or man-made. Real estate is a form of real property.",
-    Alt: "Properties",
-    Link: "/Learn/Properties",
-  },
-  {
-    id: 8,
-    Image: "./Product Images/Holidays.svg",
-    Title: "Holidays",
-    Desc: "A holiday is a day or other period of time set aside for festivals or recreation.",
-    Alt: "Holidays",
-    Link: "/Learn/Holidays",
-  },
 ];

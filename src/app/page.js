@@ -20,11 +20,14 @@ export default function Home() {
       <div className="container mt-4 mx-auto">
         <Clients />
       </div>
-      <main className="flex items-center justify-center">
+      <main className="">
         <StatsCounter />
       </main>
-      <Partners />
-      <main className="flex items-center justify-center mb-5 bg-white w-full">
+      <main className="flex items-center justify-center">
+        <Partners />
+      </main>
+
+      <main className="flex items-center justify-center">
         <Amc />
       </main>
     </>

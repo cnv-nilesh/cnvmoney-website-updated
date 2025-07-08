@@ -89,16 +89,16 @@ const CeoSection = () => {
               transition={{ delay: 0.3, duration: 0.8 }}
               viewport={{ once: true }}
             >
-              <h3 className="text-3xl font-bold text-indigo-700 mb-4">
-                Meet Our CEO
+              <h3 className="text-3xl font-bold text-[#0143a2] mb-4">
+                Meet Our Directors
               </h3>
-              <div className="text-4xl text-purple-500 mb-4">“</div>
+              <div className="text-4xl text-[#0143a2] mb-4">“</div>
               <p className="text-lg text-gray-700 italic mb-4">
                 {person.quote}
               </p>
               <p className="text-base text-gray-600 font-medium">
                 — {person.name},{" "}
-                <span className="text-indigo-500">{person.position}</span>
+                <span className="text-[#e21c1c]">{person.position}</span>
               </p>
               <div className="mt-4 flex justify-center md:justify-start">
                 <Link

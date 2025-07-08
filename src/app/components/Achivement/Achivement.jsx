@@ -2,9 +2,7 @@
 
 import { motion, useInView } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
-import Image from "next/image";
-import achivement from "./achivement.svg";
-import Amc from "../AMC/Amc";
+import Stars from "./Starts";
 
 const StatCard = ({ value, label, prefix = "", suffix = "", duration = 1 }) => {
   const ref = useRef(null);
@@ -31,7 +29,7 @@ const StatCard = ({ value, label, prefix = "", suffix = "", duration = 1 }) => {
   return (
     <motion.div
       ref={ref}
-      className="flex flex-col items-center justify-center px-4"
+      className="flex flex-col items-center px-4 flex-wrap"
       initial={{ opacity: 0, y: 20 }}
       animate={isInView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.6 }}
@@ -48,25 +46,22 @@ const StatCard = ({ value, label, prefix = "", suffix = "", duration = 1 }) => {
 
 const StatsCounter = () => {
   return (
-    <div className="w-full flex flex-col items-center justify-center overflow-hidden">
-      <div className="w-full h-auto relative flex justify-center flex-col items-center flex-w">
-        <Image
-          src={achivement}
-          alt="achivement"
-          className="w-full object-cover opacity-20 p-2"
-        />
-
-        <div className="bg-black/90 backdrop-blur-md rounded-xl shadow-md p-6 md:p-8 flex flex-wrap justify-center items-center gap-6 w-11/12 max-w-6xl -mt-16">
-          <StatCard value={11} suffix="+ years" label="Years Experience" />
-          <div className="hidden md:block h-12 w-px bg-gray-300"></div>
-          <StatCard value={5} suffix=" K+" label="Happy Clients" />
-          <div className="hidden md:block h-12 w-px bg-gray-300"></div>
-          <StatCard value={5} prefix="" suffix="+ " label="Branches" />
-          <div className="hidden md:block h-12 w-px bg-gray-300"></div>
-          <StatCard value={45} suffix="+ " label="AMC Partners" />
+    <>
+      <Stars />
+      <div className="w-full flex flex-col items-center justify-center flex-wrap overflow-hidden">
+        <div className="w-full h-auto flex justify-center flex-col items-center flex-w">
+          <div className="bg-white  backdrop-blur-md rounded-xl shadow-xl p-6 md:p-8 flex flex-wrap justify-center items-center gap-6 w-11/12 max-w-6xl mb-5">
+            <StatCard value={11} suffix="+ years" label="Years Experience" />
+            <div className="hidden md:block h-12 w-px bg-gray-300"></div>
+            <StatCard value={5} suffix=" K+" label="Happy Clients" />
+            <div className="hidden md:block h-12 w-px bg-gray-300"></div>
+            <StatCard value={5} prefix="" suffix="+ " label="Branches" />
+            <div className="hidden md:block h-12 w-px bg-gray-300"></div>
+            <StatCard value={45} suffix="+ " label="AMC Partners" />
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

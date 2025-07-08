@@ -98,7 +98,7 @@ export default function Partners() {
                 animate={position}
                 exit="hidden"
                 transition={{ duration: 0.6 }}
-                className="absolute w-[700px] h-[320px] bg-white rounded-xl shadow-lg p-6 flex flex-col items-center text-center"
+                className="absolute max-w-[700px] max-h-[320px] bg-white rounded-xl shadow-lg p-6 flex flex-col items-center text-center overflow-auto"
               >
                 <Image
                   src={item.url}

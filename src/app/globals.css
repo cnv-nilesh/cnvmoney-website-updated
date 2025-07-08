@@ -101,3 +101,7 @@ body {
       #ffffff);
   color: white;
 }
+
+::-webkit-scrollbar {
+  width: 0px;
+}

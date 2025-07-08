@@ -66,7 +66,7 @@ export default function TestimonialCarousel() {
   };
 
   return (
-    <div className="w-full max-w-7xl mx-auto py-12 px-4 bg-gray-100">
+    <div className="w-full max-w-7xl mx-auto py-12 px-4 bg-white">
       <h2 className="text-2xl font-bold text-center mb-10">
         Our Clients Reviews
       </h2>

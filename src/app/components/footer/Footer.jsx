@@ -3,7 +3,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { FaGooglePlay } from "react-icons/fa";
 import { FaAppStore } from "react-icons/fa";
 import React from "react";
-import amfiImage from "./AMFI.png";
+import amfiImage from "./AMFI.jpg";
 import Image from "next/image";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
@@ -11,6 +11,7 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
+import Logo from "./Logo.png";
 
 const Footer = () => {
   return (
@@ -20,11 +21,7 @@ const Footer = () => {
           <div className="flex flex-wrap justify-between gap-8">
             <div className="mb-6 md:mb-0">
               <a href="/" className="">
-                <img
-                  src="https://www.cnvmoney.com/_next/image?url=%2FLogo.png&w=256&q=75"
-                  className="h-8 me-3"
-                  alt="FlowBite Logo"
-                />
+                <Image src={Logo} width={150} height={50} alt="cnvmoney Logo" />
               </a>
               <div className="mt-4">
                 <span className="text-black font-medium">Head Office : </span>
@@ -46,14 +43,24 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="">
-              <Image src={amfiImage} width={70} height={10} alt="logo" />
+            <div className="max-w-[300px] flex flex-col items-center flex-wrap">
+              <Image
+                src={amfiImage}
+                width={70}
+                height={10}
+                alt="logo"
+                className="flex justify-center items-center"
+              />
               <p className="text-wrap text-slate-600 text-sm">
                 ASSOCIATION OF MUTUAL FUNDS IN INDIA
               </p>
               <p className="text-wrap text-slate-600 text-sm">
                 REGISTERED MUTUAL FUND DISTRIBUTOR
               </p>
+              <p className="text-wrap text-slate-600 text-sm mt-2">
+                CREDIT AND VAULT FINANCIAL SERVICES
+              </p>
+              <p className="text-wrap text-slate-600 text-sm">ARN: - 114773</p>
             </div>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -166,43 +173,39 @@ const Footer = () => {
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-            © 2023{" "}
-            <a href="https://flowbite.com/" className="hover:underline">
-              Flowbite™
-            </a>
-            . All Rights Reserved.
+            Copyright © 2025 All Rights Reserved.
           </span>
           <div className="flex mt-4 sm:justify-center sm:mt-0">
             <a
-              href="#"
+              href="https://www.facebook.com/cnvmoney"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <FaFacebook />
               <span className="sr-only">Facebook page</span>
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/cnvmoney"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
             >
               <FaInstagramSquare />
               <span className="sr-only">Instagram</span>
             </a>
             <a
-              href="#"
+              href="https://x.com/cnvmoney"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
             >
               <FaXTwitter />
               <span className="sr-only">Twitter</span>
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/company/cnvmoney/"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
             >
               <FaLinkedin />
               <span className="sr-only">Linkedin</span>
             </a>
             <a
-              href="#"
+              href="https://www.youtube.com/@cnvmoney"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
             >
               <FaYoutube />

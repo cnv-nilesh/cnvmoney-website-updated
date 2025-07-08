@@ -24,7 +24,7 @@ const page = () => {
               <div className="flex gap-4 p-6 bg-white rounded-2xl shadow-md w-full lg:w-2/3">
                 <FontAwesomeIcon
                   icon={faLocationDot}
-                  color="orange"
+                  color="red"
                   size="2x"
                   className="mt-1"
                 />
@@ -60,7 +60,7 @@ const page = () => {
               <div className="flex gap-4 p-6 bg-white rounded-2xl shadow-md w-full lg:w-1/3">
                 <FontAwesomeIcon
                   icon={faLocationDot}
-                  color="orange"
+                  color="red"
                   size="2x"
                   className="mt-1"
                 />
@@ -70,9 +70,9 @@ const page = () => {
                   </h4>
                   <p className="text-sm text-gray-600 font-medium">Address</p>
                   <p className="text-sm text-gray-600">
-                    Broadway Empire, Sixth floor. Opp Nilamber Bellissiomo-III,
-                    Near Nilamber Circle, Vasna Bhayli Main Road, Vadodara -
-                    390021, Gujarat, India
+                    628 Broadway Empire. Opp Nilamber Bellissiomo-III, Near
+                    Nilamber Circle, Vasna Bhayli Main Road, Vadodara, Gujarat -
+                    390021, , India
                   </p>
                   <div className="mt-4 text-sm text-gray-500">
                     <Link
