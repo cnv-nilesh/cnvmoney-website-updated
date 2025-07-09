@@ -54,13 +54,13 @@ const HeroSection = () => {
 
   const cardVariants = {
     center: { scale: 1, x: 0, opacity: 1, zIndex: 2 },
-    left: { scale: 0.9, x: "-120%", opacity: 0.0, zIndex: 1 },
-    right: { scale: 0.9, x: "120%", opacity: 0.0, zIndex: 1 },
+    left: { scale: 0.9, x: "10%", opacity: 0, zIndex: 1 },
+    right: { scale: 0.9, x: "10%", opacity: 0, zIndex: 1 },
     hidden: { scale: 0, opacity: 0, zIndex: 0 },
   };
   return (
-    <div className="w-full flex justify-evenly flex-wrap">
-      <div className="w-1/2 p-2 flex flex-col justify-center items-center">
+    <div className="w-full flex flex-col-reverse md:flex-row items-center justify-center p-4 gap-6">
+      <div className="w-1/2 p-2 flex flex-col justify-center items-center flex-wrap">
         <div className="relative flex items-center justify-center min-h-[350px]">
           <AnimatePresence>
             {slides.map((item, index) => {

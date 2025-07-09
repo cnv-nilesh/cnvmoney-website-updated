@@ -34,7 +34,7 @@ body {
 }
 
 .hover-underline {
-  color: #ffffff;
+  color: gray;
   position: relative;
   display: inline-block;
 }
