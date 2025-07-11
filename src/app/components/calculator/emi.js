@@ -22,9 +22,13 @@ export default function EmiCalculator() {
   const [showTooltipTimePeriod, setShowTooltipTimePeriod] = useState(false);
 
   const circumference = 2 * Math.PI * 45;
+  const safeTotalAmount = totalAmount > 0 ? totalAmount : 1; // avoid divide by 0
+
   const investedAmountOffset =
-    circumference - circumference * (investedAmount / totalAmount);
-  const returnsOffset = circumference - circumference * (returns / totalAmount);
+    circumference - circumference * (investedAmount / safeTotalAmount);
+
+  const returnsOffset =
+    circumference - circumference * (returns / safeTotalAmount);
 
   const calculateEMI = (p, r, t) => {
     const monthlyRate = r / 12 / 100;
@@ -70,7 +74,7 @@ export default function EmiCalculator() {
     doc.setFont("Helvetica");
 
     const logoUrl =
-      "https://www.cnvmoney.com/_next/image?url=%2FLogo.png&w=256&q=75";
+      "https://www.cnvmoney.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FLogo.cd1450c5.png&w=256&q=75";
 
     const loadImageAsBase64 = (url) => {
       return new Promise((resolve, reject) => {
@@ -99,6 +103,21 @@ export default function EmiCalculator() {
       return maturity;
     };
 
+    const removeUnsupportedColors = (element) => {
+      const elements = element.querySelectorAll("*");
+      elements.forEach((el) => {
+        const computedStyle = getComputedStyle(el);
+        ["color", "backgroundColor", "borderColor"].forEach((prop) => {
+          const val = computedStyle[prop];
+          if (val && val.includes("oklch")) {
+            console.log("pdf generate");
+            el.style[prop] = "#000"; // Replace with any fallback color
+          }
+        });
+      });
+    };
+
+    removeUnsupportedColors(calculatorRef.current);
     Promise.all([
       html2canvas(calculatorRef.current),
       loadImageAsBase64(logoUrl),
@@ -310,14 +329,14 @@ export default function EmiCalculator() {
 
   return (
     <div className="bg-white p-6 drop-shadow-lg rounded flex flex-wrap gap-5 items-center">
-      {/* {/* <div className="ml-auto flex items-center gap-2 no-print">
+      <div className="ml-auto flex items-center gap-2 no-print">
         <FaFilePdf
           className="text-3xl cursor-pointer"
           style={{ color: "#0143a2" }}
           title="Download PDF"
           onClick={handleDownloadPDF}
         />
-      </div> */}
+      </div>
 
       <div
         ref={calculatorRef}
@@ -461,10 +480,10 @@ export default function EmiCalculator() {
             </div>
           </form>
         </div>
-        <div className="w-full lg:max-w-[400px] mx-auto lg:mt-0 mt-12">
-          <div className="flex justify-center relative h-72">
+        <div className="w-full max-w-sm mx-auto mt-12 lg:mt-0 px-4">
+          <div className="flex justify-center relative h-64 sm:h-72">
             <svg
-              className="w-72 h-72 drop-shadow-md"
+              className="w-full max-w-[18rem] h-full drop-shadow-md"
               viewBox="0 0 110 110"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -477,7 +496,7 @@ export default function EmiCalculator() {
                 fill="none"
                 strokeDasharray={circumference}
                 strokeDashoffset={returnsOffset}
-                className="transition-all duration-500 bg-white"
+                className="transition-all duration-500"
                 strokeLinecap="round"
               />
               <circle
@@ -489,21 +508,23 @@ export default function EmiCalculator() {
                 fill="none"
                 strokeDasharray={circumference}
                 strokeDashoffset={investedAmountOffset}
-                className="transition-all duration-500 bg-white"
+                className="transition-all duration-500"
               />
             </svg>
           </div>
-          <div className="w-full flex gap-8 justify-center lg:justify-center mt-8">
-            <div className="flex justify-center items-center gap-1">
-              <div className="w-3 bg-[#E21c1c] border h-3"></div>
-              <p className="text-gray-400 text-sm">Invested Amount</p>
+
+          <div className="w-full flex flex-wrap items-center justify-center gap-4 sm:gap-8 mt-6 sm:mt-8">
+            <div className="flex items-center gap-2">
+              <div className="w-3 h-3 bg-[#E21c1c] border border-white rounded-full"></div>
+              <p className="text-gray-500 text-sm">Invested Amount</p>
             </div>
-            <div className="flex justify-center items-center gap-1">
-              <div className="w-3 bg-[#0143a2] h-3"></div>
-              <p className="text-gray-400 text-sm">Returns</p>
+            <div className="flex items-center gap-2">
+              <div className="w-3 h-3 bg-[#0143a2] rounded-full"></div>
+              <p className="text-gray-500 text-sm">Returns</p>
             </div>
           </div>
         </div>
+
         <div className="space-y-1 lg:mt-28">
           <div className="flex flex-col text-[#E21c1c] text-[13px] font-bold">
             <div className="flex flex-col text-[#E21c1c] text-[13px]">

@@ -146,14 +146,12 @@ const Footer = () => {
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-2">
-                  <a href="#" className="hover:underline">
+                  <Link href="/PrivacyPolicy" className="hover:underline">
                     Privacy Policy
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">
-                    Terms &amp; Conditions
-                  </a>
+                  <Link href="/TermsConditions">Terms & Conditions</Link>
                 </li>
               </ul>
             </div>
@@ -161,14 +159,18 @@ const Footer = () => {
         </div>
         <div className="flex gap-4 flex-row flex-wrap">
           <label className="text-slate-600 p-2">Download Links : </label>
-          <div className="btn_color flex gap-2 items-center p-2 cursor-pointer rounded-md">
-            <FaGooglePlay color="white" />
-            <span className="text-sm text-white">Play Store</span>
-          </div>
-          <div className="flex gap-2 items-center footer-download p-2 bg-slate-200 cursor-pointer rounded-md">
-            <FaAppStore />
-            <span className="text-sm text-white">App Store</span>
-          </div>
+          <Link href="https://play.google.com/store/apps/details?id=com.iw.creditnvault&hl=en">
+            <div className="btn_color flex gap-2 items-center p-2 cursor-pointer rounded-md">
+              <FaGooglePlay color="white" />
+              <span className="text-sm text-white">Play Store</span>
+            </div>
+          </Link>
+          <Link href="https://apps.apple.com/in/app/mint-by-investwell/id1479042500">
+            <div className="flex gap-2 items-center footer-download p-2 bg-slate-200 cursor-pointer rounded-md">
+              <FaAppStore />
+              <span className="text-sm text-white">App Store</span>
+            </div>
+          </Link>
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">

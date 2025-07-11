@@ -52,7 +52,7 @@ const Lumpsumcalculator = () => {
     doc.setFont("Helvetica");
 
     const logoUrl =
-      "https://www.cnvmoney.com/_next/image?url=%2FLogo.png&w=256&q=75";
+      "http://localhost:3000/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FLogo.397b7043.png&w=256&q=75";
 
     const loadImageAsBase64 = (url) => {
       return new Promise((resolve, reject) => {
@@ -72,6 +72,22 @@ const Lumpsumcalculator = () => {
         img.src = url;
       });
     };
+
+    const removeUnsupportedColors = (element) => {
+      const elements = element.querySelectorAll("*");
+      elements.forEach((el) => {
+        const computedStyle = getComputedStyle(el);
+        ["color", "backgroundColor", "borderColor"].forEach((prop) => {
+          const val = computedStyle[prop];
+          if (val && val.includes("oklch")) {
+            console.log("pdf generate");
+            el.style[prop] = "#000"; // Replace with any fallback color
+          }
+        });
+      });
+    };
+
+    removeUnsupportedColors(calculatorRef.current);
 
     Promise.all([
       html2canvas(calculatorRef.current),
@@ -301,14 +317,14 @@ const Lumpsumcalculator = () => {
 
   return (
     <div className="bg-white p-6 drop-shadow-lg rounded flex flex-wrap gap-5 items-center">
-      {/* <div className="ml-auto flex items-center gap-2 no-print">
+      <div className="ml-auto flex items-center gap-2 no-print">
         <FaFilePdf
           className="text-3xl cursor-pointer"
           style={{ color: "#0143a2" }}
           title="Download PDF"
           onClick={handleDownloadPDF}
         />
-      </div> */}
+      </div>
       <div
         ref={calculatorRef}
         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 w-full"
