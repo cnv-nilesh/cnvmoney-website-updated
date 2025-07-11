@@ -23,7 +23,7 @@ function PrivacyPolicy() {
             you have with cnvmoney, including Terms & Conditions for your
             investment account and the Know Your Customer (KYC) process. If you
             have any questions or concerns regarding this privacy policy, you
-            should contact our Customer Support Desk at info@creditnvault.com
+            should contact our Customer Support Desk at info@cnvmoney.com
           </p>
           <br />
           <div className="CNVPagesTC">
