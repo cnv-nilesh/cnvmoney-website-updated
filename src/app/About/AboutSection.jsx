@@ -43,9 +43,10 @@ const AboutSection = () => {
     <>
       <div className="p-2 text-wrap mb-1">
         <p className="text-gray-500">
-          CNVMONEY FinTech Pvt. Ltd. ( formerly cnvmoney group) established in
-          2014, with vast experience in banking and finance over a period of 22
-          years with specialization in Investments and Wealth Management .
+          CNVMONEY FinTech Pvt. Ltd. ( formerly credit and vault group)
+          established in 2014, with vast experience in banking and finance over
+          a period of 22 years with specialization in Investments and Wealth
+          Management .
         </p>
         <p className="text-gray-500 mt-2">
           We are in to distribution of Financial Products to Retail and HNI
