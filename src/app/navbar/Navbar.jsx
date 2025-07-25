@@ -21,11 +21,6 @@ export default function Navbar() {
       href: "https://www.amfiindia.com/investor-corner/investor-center/download-forms.html",
       label: "Download",
     },
-    { href: "/Learn/MutualFund", label: "Learn" },
-    { href: "/About", label: "About" },
-    { href: "/Blog", label: "Blog" },
-    { href: "/Contact", label: "Contact" },
-    { href: "/Calculator", label: "Calculator" },
     {
       label: "Services",
       submenu: [
@@ -38,12 +33,17 @@ export default function Navbar() {
         },
 
         { href: "/Services/kycStatus", label: "Verify Your KYC Status" },
-        { href: "/Services/insurance", label: "Online Transcation" },
-        { href: "/Services/wealth", label: "NISM ARN Registration" },
-        { href: "/Services/tax", label: "NRI country Restriction" },
-        { href: "/Services/insurance", label: "FATCA Update" },
+        { href: "/Services/onlineTranscation", label: "Online Transcation" },
+        { href: "/Services/ARN", label: "NISM ARN Registration" },
+        { href: "/Services/NRI", label: "NRI country Restriction" },
+        { href: "/Services/FATCA", label: "FATCA Update" },
       ],
     },
+    { href: "/Learn/MutualFund", label: "Learn" },
+    { href: "/About", label: "About" },
+    { href: "/Blog", label: "Blog" },
+    { href: "/Contact", label: "Contact" },
+    { href: "/Calculator", label: "Calculator" },
   ];
 
   // Close login dropdown on outside click
