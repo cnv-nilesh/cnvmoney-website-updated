@@ -1,7 +1,7 @@
 // components/Services.tsx
 "use client";
-import React, { useEffect, useState, useRef } from "react";
-import { motion } from "framer-motion";
+import React from "react";
+
 import Image from "next/image";
 import { cart } from "./product";
 
@@ -32,7 +32,7 @@ const Services = () => {
       </div>
       <style jsx>{`
         .animate-slide {
-          animation: scroll 2s linear infinite;
+          animation: scroll 5s linear infinite;
         }
 
         @keyframes scroll {
@@ -40,7 +40,7 @@ const Services = () => {
             transform: translateX(0%);
           }
           100% {
-            transform: translateX(-50%);
+            transform: translateX(-100%);
           }
         }
       `}</style>
