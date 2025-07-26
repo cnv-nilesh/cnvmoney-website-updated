@@ -20,7 +20,7 @@ const Services = () => {
   const totalWidth = cart.length * itemWidth;
 
   return (
-    <div className="container px-4 py-8 overflow-hidden bg-slate-100">
+    <div className="px-4 py-8 overflow-hidden bg-slate-100">
       <h2 className="text-2xl font-bold text-center ">
         The Best Service We Offer
       </h2>

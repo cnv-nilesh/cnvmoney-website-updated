@@ -17,9 +17,27 @@ export default function Navbar() {
 
   const navItems = [
     { href: "/", label: "Home" },
+    { href: "/About", label: "About" },
     {
-      href: "https://www.amfiindia.com/investor-corner/investor-center/download-forms.html",
       label: "Download",
+      submenu: [
+        {
+          href: "https://www.amfiindia.com/investor-corner/investor-center/download-forms.html",
+          label: "Muthal Funds ",
+        },
+        {
+          href: "https://myaadhaar.uidai.gov.in/genricDownloadAadhaar/en",
+          label: "Aadhaar Download",
+        },
+        {
+          href: "https://eportal.incometax.gov.in/iec/foservices/#/pre-login/bl-link-aadhaar",
+          label: "Aadhaar & PAN Link",
+        },
+        {
+          href: "https://onlineservices.proteantech.in/paam/endUserRegisterContact.html",
+          label: "Apply PAN Card",
+        },
+      ],
     },
     {
       label: "Services",
@@ -33,15 +51,17 @@ export default function Navbar() {
         },
 
         { href: "/Services/kycStatus", label: "Verify Your KYC Status" },
-        { href: "/Services/onlineTranscation", label: "Online Transcation" },
         { href: "/Services/ARN", label: "NISM ARN Registration" },
         { href: "/Services/NRI", label: "NRI country Restriction" },
         { href: "/Services/FATCA", label: "FATCA Update" },
       ],
     },
     { href: "/Learn/MutualFund", label: "Learn" },
-    { href: "/About", label: "About" },
-    { href: "/Blog", label: "Blog" },
+
+    {
+      href: "https://www.mutualfundssahihai.com/en/kyc-check",
+      label: "Check KYC ",
+    },
     { href: "/Contact", label: "Contact" },
     { href: "/Calculator", label: "Calculator" },
   ];
@@ -88,8 +108,8 @@ export default function Navbar() {
                     className={clsx(
                       "text-sm font-medium transition-colors",
                       path.startsWith("/Services")
-                        ? "text-blue-600 border-b-2 border-blue-600"
-                        : "text-gray-700 hover:text-blue-600"
+                        ? "text-[#264796] border-b-2 border-[#264796]"
+                        : "text-gray-700 hover:text-[#264796]"
                     )}
                   >
                     {item.label}
@@ -114,8 +134,8 @@ export default function Navbar() {
                   className={clsx(
                     "text-sm font-medium transition-colors",
                     path === item.href
-                      ? "text-blue-600 border-b-2 border-blue-600"
-                      : "text-gray-700 hover:text-blue-600"
+                      ? "text-[#264796] border-b-2 border-[#264796]"
+                      : "text-gray-700 hover:text-[#264796]"
                   )}
                 >
                   {item.label}
@@ -125,7 +145,7 @@ export default function Navbar() {
 
             <a
               href="https://cnvmoney.my-portfolio.co.in/app/#/kycOnBoarding/mobileSignUp"
-              className="py-1 px-4 text-xs text-white bg-blue-600 rounded-2xl hover:bg-blue-700"
+              className="py-1 px-4 text-xs text-white bg-[#264796] rounded-2xl hover:bg-blue-700"
             >
               Sign Up
             </a>
@@ -133,7 +153,7 @@ export default function Navbar() {
             <div className="relative" ref={menuRef}>
               <button
                 onClick={() => setOpen(!open)}
-                className="py-1 px-4 text-xs text-white bg-blue-600 rounded-2xl hover:bg-blue-700"
+                className="py-1 px-4 text-xs text-white bg-[#264796] rounded-2xl hover:bg-blue-700"
               >
                 Login
               </button>
@@ -199,7 +219,7 @@ export default function Navbar() {
                   onClick={() => setIsOpen(false)}
                   className={clsx(
                     "block text-sm font-medium px-2 py-2 rounded hover:bg-gray-100",
-                    path === item.href ? "text-blue-600" : "text-gray-700"
+                    path === item.href ? "text-[#264796]" : "text-gray-700"
                   )}
                 >
                   {item.label}
@@ -209,14 +229,14 @@ export default function Navbar() {
 
             <a
               href="https://cnvmoney.my-portfolio.co.in/app/#/kycOnBoarding/mobileSignUp"
-              className="block py-2 text-center text-white text-sm bg-blue-600 rounded-xl hover:bg-blue-700"
+              className="block py-2 text-center text-white text-sm bg-[#264796] rounded-xl hover:bg-blue-700"
               onClick={() => setIsOpen(false)}
             >
               Sign Up
             </a>
             <a
               href="https://cnvmoney.my-portfolio.co.in/app/#/login"
-              className="block py-2 text-center text-white text-sm bg-blue-600 rounded-xl hover:bg-blue-700"
+              className="block py-2 text-center text-white text-sm bg-[#264796] rounded-xl hover:bg-blue-700"
               onClick={() => setIsOpen(false)}
             >
               Login

@@ -12,6 +12,8 @@ import { FaYoutube } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
 import Logo from "./Logo.png";
+import playStore from "./playstore.webp";
+import appStore from "./appStore.png";
 
 const Footer = () => {
   return (
@@ -160,15 +162,23 @@ const Footer = () => {
         <div className="flex gap-4 flex-row flex-wrap">
           <label className="text-slate-600 p-2">Download Links : </label>
           <Link href="https://play.google.com/store/apps/details?id=com.iw.creditnvault&hl=en">
-            <div className="btn_color flex gap-2 items-center p-2 cursor-pointer rounded-md">
-              <FaGooglePlay color="white" />
-              <span className="text-sm text-white">Play Store</span>
+            <div className="flex gap-2 items-center p-2 cursor-pointer rounded-md">
+              <Image
+                src={playStore}
+                alt="playstore"
+                width={120}
+                height={60}
+              ></Image>
             </div>
           </Link>
           <Link href="https://apps.apple.com/in/app/mint-by-investwell/id1479042500">
-            <div className="flex gap-2 items-center footer-download p-2 bg-slate-200 cursor-pointer rounded-md">
-              <FaAppStore />
-              <span className="text-sm text-white">App Store</span>
+            <div className="flex gap-2 items-center p-2 cursor-pointer rounded-md">
+              <Image
+                src={appStore}
+                alt="Appstore"
+                width={120}
+                height={60}
+              ></Image>
             </div>
           </Link>
         </div>

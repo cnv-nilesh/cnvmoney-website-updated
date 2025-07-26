@@ -101,7 +101,7 @@ const HeroSection = () => {
           ))}
         </div>
       </div>
-      <div className="w-1/2 p-2">
+      <div className="w-full md:w-1/2 p-2">
         <Image src={image2} className="object-fill" alt="hero" />
       </div>
     </div>

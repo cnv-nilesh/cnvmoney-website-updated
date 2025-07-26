@@ -1,9 +1,11 @@
 import "./globals.css";
 import Navbar from "./navbar/Navbar";
 import { Poppins } from "next/font/google";
+import WhatsApp from "../../public/WhatsApp.svg";
 
 const poppins = Poppins({ subsets: ["latin"], weight: "400" });
 import Footer from "./components/footer/Footer";
+import Image from "next/image";
 
 export const metadata = {
   title:
@@ -17,8 +19,18 @@ export default function RootLayout({ children }) {
       <body className={poppins.className}>
         <Navbar />
         <main className="pt-16">{children}</main>
-        <div className="bg-slate-100 h-2" />
+        <div className="bg-slate-100 h-2 relative" />
         <Footer />
+        <a href="https://web.whatsapp.com/">
+          <div className="fixed bottom-40 right-5 rounded-full z-50 cursor-pointer shadow-md">
+            <Image
+              src={WhatsApp}
+              alt="WhatsApp"
+              width={100}
+              height={50}
+            ></Image>
+          </div>
+        </a>
       </body>
     </html>
   );

@@ -66,13 +66,13 @@ const page = () => {
                 />
                 <div className="flex flex-col gap-1">
                   <h4 className="text-xl font-semibold text-gray-800">
-                    Gujarat Office
+                    Gujarat Branch
                   </h4>
                   <p className="text-sm text-gray-600 font-medium">Address</p>
                   <p className="text-sm text-gray-600">
-                    628 Broadway Empire. Opp Nilamber Bellissiomo-III, Near
-                    Nilamber Circle, Vasna Bhayli Main Road, Vadodara, Gujarat -
-                    390021, , India
+                    628, Broadway Empire, Near Nilamber Circle ,Opposite
+                    Nilamber Bellissimo 3, Vasna Bhayli Main Road, Vadodara,
+                    Gujarat - 391410.
                   </p>
                   <div className="mt-4 text-sm text-gray-500">
                     <Link
@@ -80,15 +80,16 @@ const page = () => {
                       className="flex items-center gap-2 mb-2"
                     >
                       <MdOutlineEmail className="text-gray-500" />
-                      <span>info@cnvmoney.com</span>
+                      <span>rina.patel@cnvmoney.com</span>
                     </Link>
-                    <Link
-                      href="tel:+918806604430"
-                      className="flex items-center gap-2"
-                    >
+                    <div className="flex items-center gap-2">
                       <GiRotaryPhone className="text-gray-500" />
-                      <span>+91 8806604430</span>
-                    </Link>
+                      <span>+91 9925039676</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <GiRotaryPhone className="text-gray-500" />
+                      <span>+91 7874877727</span>
+                    </div>
                   </div>
                 </div>
               </div>

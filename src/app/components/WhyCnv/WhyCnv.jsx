@@ -53,9 +53,9 @@ function WhyCNV() {
   // }, []);
 
   return (
-    <section className="whyCNV-section bg-gradient-to-r from-gray-100 to-gray-200 py-16 px-6">
+    <section className="whyCNV-section w-full bg-red-50 py-16 px-6">
       <div className="whyCNV-container max-w-6xl mx-auto text-center">
-        <h2 className="text-xl font-bold text-gray-800 mb-6">Why cnvmoney</h2>
+        <h2 className="text-xl font-bold text-gray-800 mb-6">Why CNVMONEY</h2>
         <p className="text-gray-500 mb-12 text-lg leading-relaxed">
           Discover the benefits of partnering with cnvmoney and how we can help
           grow your portfolio.

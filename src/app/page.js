@@ -8,16 +8,16 @@ import Amc from "../app/components/AMC/Amc";
 export default function Home() {
   return (
     <>
-      <div className="container mt-4">
+      <div className="w-full mt-4">
         <HeroSection />
       </div>
-      <div className="container mt-4 mx-auto">
+      <div className="w-full mt-4 mx-auto">
         <Services />
       </div>
-      <div className="container mt-4 mx-auto">
+      <div className="w-full mt-4 mx-auto">
         <WhyCnv />
       </div>
-      <div className="container mt-4 mx-auto">
+      <div className="w-full mt-4 mx-auto">
         <Clients />
       </div>
       <main className="">
