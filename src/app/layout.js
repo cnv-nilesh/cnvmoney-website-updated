@@ -21,7 +21,10 @@ export default function RootLayout({ children }) {
         <main className="pt-16">{children}</main>
         <div className="bg-slate-100 h-2 relative" />
         <Footer />
-        <a href="https://api.whatsapp.com/send/?phone=918806604430&text&type=phone_number&app_absent=0">
+        <a
+          href="https://api.whatsapp.com/send/?phone=918806604430&text&type=phone_number&app_absent=0"
+          target="blank"
+        >
           <div className="fixed bottom-10 right-10 rounded-full z-50 cursor-pointer">
             <Image src={WhatsApp} alt="WhatsApp" width={50} height={50}></Image>
           </div>
