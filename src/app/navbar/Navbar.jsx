@@ -117,14 +117,13 @@ export default function Navbar() {
 
                   <div className="absolute left-0 mt-2 w-60 bg-white rounded-md shadow-md ring-opacity-5 opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 z-50">
                     {item?.submenu.map((subItem, subIndex) => (
-                      <a
+                      <Link
                         key={subIndex}
                         href={subItem.href}
                         className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                        target="blank"
                       >
                         {subItem.label}
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 </div>
