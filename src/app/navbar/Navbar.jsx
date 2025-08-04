@@ -190,7 +190,7 @@ export default function Navbar() {
         {/* Mobile Menu */}
         <div
           className={clsx(
-            "md:hidden transition-all duration-300 overflow-hidden",
+            "md:hidden transition-all duration-300 overflow-auto",
             isOpen ? "max-h-screen mt-2" : "max-h-0"
           )}
         >
