@@ -23,7 +23,7 @@ export default function Navbar() {
       submenu: [
         {
           href: "https://www.amfiindia.com/investor-corner/investor-center/download-forms.html",
-          label: "Muthal Funds ",
+          label: "Mutual Funds ",
         },
         {
           href: "https://myaadhaar.uidai.gov.in/genricDownloadAadhaar/en",
@@ -42,9 +42,9 @@ export default function Navbar() {
     {
       label: "Services",
       submenu: [
-        { href: "/Services/MutualFunds", label: "Muthal Funds Links" },
+        { href: "/Services/MutualFunds", label: "Mutual Funds Links" },
         { href: "/Services/transcationStatus", label: "Transcation Status" },
-        { href: "https://www.mfcentral.com", label: "Mf Central" },
+        { href: "https://www.mfcentral.com", label: "MF Central" },
         {
           href: "https://www.amfiindia.com/kyc",
           label: "Online KYC Modification",
