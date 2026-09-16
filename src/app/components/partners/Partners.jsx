@@ -11,7 +11,7 @@ const testimonials = [
     company: "",
     des: "Premier Business Partner - Vadodara ",
     rate: <FiveStar />,
-    text: "Partnering with CNVMONEY has been a transformative experience for my mutual fund distribution business. Their platform combines cutting-edge technology with deep industry insight, making it easier than ever to manage client portfolios, track performance, and offer tailored investment advice. CNVMONEY's robust support system and seamless digital tools have significantly improved client engagement and operational efficiency. I truly appreciate their commitment to transparency, compliance, and innovation. With CNVMONEY, I feel empowered to grow my business with confidence and deliver exceptional value to my clients",
+    text: "Partnering with credit and vault financial services has been a transformative experience for my mutual fund distribution business. Their platform combines cutting-edge technology with deep industry insight, making it easier than ever to manage client portfolios, track performance, and offer tailored investment advice. credit and vault financial services's robust support system and seamless digital tools have significantly improved client engagement and operational efficiency. I truly appreciate their commitment to transparency, compliance, and innovation. With credit and vault financial services, I feel empowered to grow my business with confidence and deliver exceptional value to my clients",
     url: "/partners/Rina.png",
   },
   {
@@ -20,7 +20,7 @@ const testimonials = [
     company: "Rebello Finance",
     des: "Premier Business Partner – Virar",
     rate: <FiveStar />,
-    text: "Being associated with CNVMONEY as a Premier Business Partner has been a game-changer for my financial distribution journey. The platform’s user-friendly interface, advanced tools, and strong back-end support have helped me deliver exceptional service to my clients. What sets CNVMONEY apart is their consistent focus on innovation, compliance, and partner empowerment. Operating from Vashi, I’ve seen first-hand how their solutions have streamlined my operations and strengthened client trust. Proud to be part of the CNVMONEY ecosystem",
+    text: "Being associated with credit and vault financial services as a Premier Business Partner has been a game-changer for my financial distribution journey. The platform’s user-friendly interface, advanced tools, and strong back-end support have helped me deliver exceptional service to my clients. What sets credit and vault financial services apart is their consistent focus on innovation, compliance, and partner empowerment. Operating from Vashi, I’ve seen first-hand how their solutions have streamlined my operations and strengthened client trust. Proud to be part of the credit and vault financial services ecosystem",
     url: "/partners/Stalin.png",
   },
   {
@@ -29,7 +29,7 @@ const testimonials = [
     company: "Invest@easa",
     des: "Premier Business Partner – Boisar",
     rate: <FiveStar />,
-    text: "Joining hands with CNVMONEY as a Premier Business Partner has been one of the best decisions for my business in Vasai. Their comprehensive platform, backed by top-notch technology and excellent support, has helped me serve my clients more efficiently and professionally. CNVMONEY doesn’t just offer tools—they offer a complete ecosystem that supports growth, learning, and client satisfaction. I’m proud to be associated with a brand that truly values its partners and is committed to building a stronger financial future for all.",
+    text: "Joining hands with credit and vault financial services as a Premier Business Partner has been one of the best decisions for my business in Vasai. Their comprehensive platform, backed by top-notch technology and excellent support, has helped me serve my clients more efficiently and professionally. credit and vault financial services doesn’t just offer tools—they offer a complete ecosystem that supports growth, learning, and client satisfaction. I’m proud to be associated with a brand that truly values its partners and is committed to building a stronger financial future for all.",
     url: "/partners/Thomas.png",
   },
   {
@@ -38,7 +38,7 @@ const testimonials = [
     company: "CME Finserv",
     des: "Wealth Premier Partner – Mumbai",
     rate: <FourAndHalfStar />,
-    text: "As a Wealth Premier Partner with CNVMONEY in Mumbai, I’ve experienced a new level of efficiency, trust, and professionalism in the wealth management space. CNVMONEY's platform empowers me with the right tools, real-time insights, and compliance-friendly solutions that make client servicing smooth and impactful. Their unwavering support and forward-thinking approach has helped me scale my business and build lasting client relationships. Proud to be part of a network that truly understands and uplifts its partners.",
+    text: "As a Wealth Premier Partner with credit and vault financial services in Mumbai, I’ve experienced a new level of efficiency, trust, and professionalism in the wealth management space. credit and vault financial services's platform empowers me with the right tools, real-time insights, and compliance-friendly solutions that make client servicing smooth and impactful. Their unwavering support and forward-thinking approach has helped me scale my business and build lasting client relationships. Proud to be part of a network that truly understands and uplifts its partners.",
     url: "/partners/Clarence.png",
   },
   {
@@ -47,7 +47,7 @@ const testimonials = [
     company: "",
     des: "Elite Business Partner – Vashi",
     rate: <FourAndHalfStar />,
-    text: "As an Elite Business Partner with CNVMONEY in Vashi, I can confidently say that this association has elevated my practice to new heights. CNVMONEY offers a powerful blend of technology, training, and personalized support that makes mutual fund distribution not only efficient but also future-ready. Their digital tools simplify everything—from onboarding to portfolio tracking—allowing me to focus more on building long-term relationships with my clients. The team at CNVMONEY is proactive, professional, and always just a call away. It's truly a partnership that delivers on every promise.",
+    text: "As an Elite Business Partner with credit and vault financial services in Vashi, I can confidently say that this association has elevated my practice to new heights. credit and vault financial services offers a powerful blend of technology, training, and personalized support that makes mutual fund distribution not only efficient but also future-ready. Their digital tools simplify everything—from onboarding to portfolio tracking—allowing me to focus more on building long-term relationships with my clients. The team at credit and vault financial services is proactive, professional, and always just a call away. It's truly a partnership that delivers on every promise.",
     url: "/partners/Asim.png",
   },
 ];

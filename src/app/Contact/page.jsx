@@ -34,8 +34,8 @@ const page = () => {
                   </h4>
                   <p className="text-sm text-gray-600 font-bold">Address:</p>
                   <p className="text-sm text-gray-600">
-                    B-207, Gopal CHS, Ambadi Road, Opp- 60 Feet Road, Vasai
-                    West, Palghar, Maharashtra - 401202
+                    Micheal Palace, Shop No 2-4, Mudwadi Mulgaon , Vasai
+                    West, Thane, Maharashtra - 401201
                   </p>
                   <div className="flex flex-wrap gap-4 mt-4 text-sm text-gray-500">
                     <Link
@@ -46,11 +46,11 @@ const page = () => {
                       <span>info@cnvmoney.com</span>
                     </Link>
                     <Link
-                      href="tel:+918806604430"
+                      href="tel:+917057233394"
                       className="flex items-center gap-2"
                     >
                       <GiRotaryPhone className="text-gray-500" />
-                      <span>+91 8806604430</span>
+                      <span>+91 7057233394</span>
                     </Link>
                   </div>
                 </div>
@@ -87,7 +87,7 @@ const page = () => {
                 </div>
               </div>
               {/* Gujarat Office */}
-              <div className="flex gap-4 p-6 bg-white rounded-2xl shadow-md w-full lg:w-1/3">
+              {/* <div className="flex gap-4 p-6 bg-white rounded-2xl shadow-md w-full lg:w-1/3">
                 <FontAwesomeIcon
                   icon={faLocationDot}
                   color="red"
@@ -122,7 +122,7 @@ const page = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </motion.div>

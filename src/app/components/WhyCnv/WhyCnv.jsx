@@ -15,23 +15,23 @@ const cardData = [
   { img: MBch, text: "Multiple branches available for customer support" },
   {
     img: CPR,
-    text: "In the last 10 years, cnvmoney has delivered a return of 12% Plus CAGR in the Customer Portfolios.",
+    text: "In the last 10 years, credit and vault financial services has delivered a return of 12% Plus CAGR in the Customer Portfolios.",
   },
   // {
   //   img: Up,
-  //   text: "cnvmoney keeps updating its systems to the needs of the clients.",
+  //   text: "credit and vault financial services keeps updating its systems to the needs of the clients.",
   // },
   {
     img: SMC,
-    text: "cnvmoney provides regular market updates through Digital Media.",
+    text: "credit and vault financial services provides regular market updates through Digital Media.",
   },
   {
     img: GYS,
-    text: "cnvmoney offers an opportunity to build your own business and generate a secondary source of income.",
+    text: "credit and vault financial services offers an opportunity to build your own business and generate a secondary source of income.",
   },
   {
     img: PDS,
-    text: "cnvmoney ensures that client financial and personal data are kept safe and secured.",
+    text: "credit and vault financial services ensures that client financial and personal data are kept safe and secured.",
   },
 ];
 
@@ -55,9 +55,9 @@ function WhyCNV() {
   return (
     <section className="whyCNV-section w-full bg-red-50 py-16 px-6">
       <div className="whyCNV-container max-w-6xl mx-auto text-center">
-        <h2 className="text-xl font-bold text-gray-800 mb-6">Why CNVMONEY</h2>
+        <h2 className="text-xl font-bold text-gray-800 mb-6">Why credit and vault financial services</h2>
         <p className="text-gray-500 mb-12 text-lg leading-relaxed">
-          Discover the benefits of partnering with cnvmoney and how we can help
+          Discover the benefits of partnering with credit and vault financial services and how we can help
           grow your portfolio.
         </p>
 

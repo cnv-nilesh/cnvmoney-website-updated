@@ -4,11 +4,11 @@ import Image from "next/image";
 import Target from "./Target";
 import { useEffect } from "react";
 const data = [
-  {
-    imageUrl: "/about/1.png",
-    header: "CNVMONEY FINTECH PRIVATE LIMITED",
-    info: "We understand that navigating the financial world can be overwhelming. At CNVMONEY Fintech Pvt. Ltd., our team of experienced and qualified AMFI Distributors and Relationship Managers are dedicated to guiding on your unique financial journey. We take a personalized approach, working closely with you to understand your goals and develop a customized plan.",
-  },
+  // {
+  //   imageUrl: "/about/1.png",
+  //   header: "CREDIT AND VAULT FINANCIAL SERVICES",
+  //   info: "We understand that navigating the financial world can be overwhelming. At CREDIT AND VAULT FINANCIAL SERVICES., our team of experienced and qualified AMFI Distributors and Relationship Managers are dedicated to guiding on your unique financial journey. We take a personalized approach, working closely with you to understand your goals and develop a customized plan.",
+  // },
   {
     imageUrl: "/about/2.png",
     header: "CREDIT AND VAULT FINANCIAL SERVICES",
@@ -43,7 +43,7 @@ const AboutSection = () => {
     <>
       <div className="p-2 text-wrap mb-1">
         <p className="text-gray-500">
-          CNVMONEY FinTech Pvt. Ltd. ( formerly credit and vault group)
+          CREDIT AND VAULT FINANCIAL SERVICES. ( formerly credit and vault group)
           established in 2014, with vast experience in banking and finance over
           a period of 22 years with specialization in Investments and Wealth
           Management .
@@ -59,7 +59,7 @@ const AboutSection = () => {
           The Firm is committed for best in class one stop financial destination
           for all client financial needs with unbiased Advice, Systematic
           Approach &Passionate Service, keeping the customer at the center Is
-          what defines&quot cnvmoney Investments&quot; .With a vision to create
+          what defines&quot credit and vault financial services Investments&quot; .With a vision to create
           a WOW experience, we extend unbiased, accurate, and independent
           professional advice along with complete assistance for hassle-free and
           swift execution. As a result of which, we arm you to achieve your

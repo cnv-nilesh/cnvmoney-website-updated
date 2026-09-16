@@ -8,7 +8,7 @@ function PrivacyPolicy() {
         <div className="CNVPages-main">
           <h1 className="text-gray-700">Privacy Policy</h1>
           <p className="text-gray-500">
-            We, cnvmoney , the creators of this Privacy Policy ensure our firm
+            We, credit and vault financial services , the creators of this Privacy Policy ensure our firm
             commitment to your privacy vis-Ã -vis the protection of your
             priceless information. In order to endow you with our uninterrupted
             use of services, we may collect and, in some circumstances, disclose
@@ -20,10 +20,10 @@ function PrivacyPolicy() {
           <br />
           <p className="text-gray-500">
             This privacy policy should be read in accordance with any agreement
-            you have with cnvmoney, including Terms & Conditions for your
+            you have with credit and vault financial services, including Terms & Conditions for your
             investment account and the Know Your Customer (KYC) process. If you
             have any questions or concerns regarding this privacy policy, you
-            should contact our Customer Support Desk at info@cnvmoney.com
+            should contact our Customer Support Desk at info@credit and vault financial services.com
           </p>
           <br />
           <div className="CNVPagesTC">
@@ -95,8 +95,8 @@ function PrivacyPolicy() {
               window or any other form displayed on any section of the website
               are also collected. <br /> Connecting Your Email Account <br />{" "}
               You can choose to provide explicit consent to connect your email
-              accounts with your cnvmoney account. <br /> Once connected,
-              cnvmoney will securely access and analyse the contents of emails
+              accounts with your credit and vault financial services account. <br /> Once connected,
+              credit and vault financial services will securely access and analyse the contents of emails
               from registrar & transfer agents and depositories for the purpose
               of reading the consolidated holdings statement to provide a
               consolidated view of your investment portfolio at one place.{" "}
@@ -146,10 +146,10 @@ function PrivacyPolicy() {
             <h3 className="text-gray-600">6. OUR USE OF YOUR INFORMATION</h3>
             <p className="text-gray-500">
               {" "}
-              By signing up to the cnvmoney platform, you agree and consent to
+              By signing up to the credit and vault financial services platform, you agree and consent to
               receive all communications at the mobile number provided, even if
               this mobile number is registered under DND/NCPR list under TRAI
-              regulations. And for that purpose, you further authorise cnvmoney
+              regulations. And for that purpose, you further authorise credit and vault financial services
               . to share/disclose the information to any third party service
               provider or any affiliates, group companies, their authorised
               agents, or third-party service providers. <br /> Your contact
@@ -182,7 +182,7 @@ function PrivacyPolicy() {
               information we collect about you to provide you with a
               personalised experience on our website/app, such as providing you
               with content based on your interest and making navigation on our
-              sites easier. <br /> As you access and use cnvmoney, we may
+              sites easier. <br /> As you access and use credit and vault financial services, we may
               request access wherever applicable:
             </p>
             <br />

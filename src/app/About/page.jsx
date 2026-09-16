@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import "./about.css";
 import CeoCard from "./CeoCard";
-import Members from "./Members";
+// import Members from "./Members";
 import AboutSection from "./AboutSection";
 import { motion, AnimatePresence } from "framer-motion";
 import Target from "./Target";
@@ -30,7 +30,7 @@ function AboutUs() {
         )}
       </AnimatePresence>
       <div className="h-1 w-full bg-slate-100 mt-16"></div>
-      <Members />
+      {/* <Members /> */}
       <Target></Target>
       <div className="h-1 w-full bg-slate-100"></div>
     </div>

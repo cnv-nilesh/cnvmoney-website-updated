@@ -28,10 +28,10 @@ const Footer = () => {
               <div className="mt-4">
                 <span className="text-black font-medium">Head Office : </span>
                 <p className="text-slate-600 text-sm">
-                  B-207, Gopal CHS, Ambadi Road, Opp- 60 Feet Road,
+                  Micheal Palace,Shop No 2-4, Mudwadi Mulgaon,
                 </p>
                 <p className="text-slate-600 text-sm">
-                  Vasai West, Palghar, Maharashtra - 401202
+                  Vasai West, Thane, Maharashtra - 401201
                 </p>
                 <div className="mt-2">
                   <div className="flex just items-center gap-1.5">
@@ -119,9 +119,25 @@ const Footer = () => {
                     About Us
                   </a>
                 </li>
+
                 <li className="mb-1">
                   <a href="/Contact" className="hover:underline">
                     Contact us
+                  </a>
+                </li>
+                <li className="mb-1">
+                  <a href="https://www.sebi.gov.in/filings/mutual-funds.html" target="blank" className="hover:underline">
+                    SID / SAI / KIM Sheets
+                  </a>
+                </li>
+                <li className="mb-1">
+                  <a href="/CodeofConduct" className="hover:underline">
+                    Code of Conduct
+                  </a>
+                </li>
+                 <li className="mb-1">
+                  <a href="/riskfactor" className="hover:underline">
+                    Risk Factor
                   </a>
                 </li>
               </ul>

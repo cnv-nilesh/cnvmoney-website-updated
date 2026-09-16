@@ -10,7 +10,7 @@ const testimonials = [
     name: "Prasad Lemos",
     des: "Vice President, HDFC Bank Ltd",
     rate: <FiveStar />,
-    text: "CNVMONEY Company has been an excellent partner for my financial journey...",
+    text: "credit and vault financial services Company has been an excellent partner for my financial journey...",
     url: "/TestimonialImage/Prashant.jpg",
   },
   {
@@ -18,7 +18,7 @@ const testimonials = [
     name: "Vikas Save",
     des: "Director, VDA Infosolutions Pvt.Ltd.",
     rate: <FourAndHalfStar />,
-    text: "Amazing and trustworthy investment experience with CNVMONEY team...",
+    text: "Amazing and trustworthy investment experience with credit and vault financial services team...",
     url: "/TestimonialImage/Vikas.jpeg",
   },
   {
@@ -26,7 +26,7 @@ const testimonials = [
     name: "Glen Gonsalves",
     des: "Co-Founder, Fledon Engineering Works",
     rate: <FourAndHalfStar />,
-    text: "I highly recommend CNVMONEY as investments firm for their professional advisory.",
+    text: "I highly recommend credit and vault financial services as investments firm for their professional advisory.",
     url: "/TestimonialImage/Glen.jpg",
   },
   {
@@ -34,7 +34,7 @@ const testimonials = [
     name: "Harshala Shastri",
     des: "Marketing Head, ICICI Bank",
     rate: <FourAndHalfStar />,
-    text: "I strongly recommend CNVMONEY for their wealth of expertise...",
+    text: "I strongly recommend credit and vault financial services for their wealth of expertise...",
     url: "/TestimonialImage/Harshala.jpg",
   },
 ];
