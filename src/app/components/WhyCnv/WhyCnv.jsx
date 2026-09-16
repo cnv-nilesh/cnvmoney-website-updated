@@ -15,7 +15,7 @@ const cardData = [
   { img: MBch, text: "Multiple branches available for customer support" },
   {
     img: CPR,
-    text: "In the last 10 years, credit and vault financial services has delivered a return of 12% Plus CAGR in the Customer Portfolios.",
+    text: "Over the last 10 years, Indian Equity Mutual Funds have delivered an average return of approximately 12%–14% CAGR, helping investors create long-term wealth through disciplined investing.",
   },
   // {
   //   img: Up,

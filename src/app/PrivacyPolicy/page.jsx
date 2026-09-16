@@ -8,7 +8,7 @@ function PrivacyPolicy() {
         <div className="CNVPages-main">
           <h1 className="text-gray-700">Privacy Policy</h1>
           <p className="text-gray-500">
-            We, credit and vault financial services , the creators of this Privacy Policy ensure our firm
+            We, credit and vault financial services, the creators of this Privacy Policy ensure our firm
             commitment to your privacy vis-Ã -vis the protection of your
             priceless information. In order to endow you with our uninterrupted
             use of services, we may collect and, in some circumstances, disclose

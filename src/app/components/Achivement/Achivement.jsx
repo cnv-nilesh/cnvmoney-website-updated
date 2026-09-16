@@ -51,13 +51,15 @@ const StatsCounter = () => {
       <div className="w-full flex flex-col items-center justify-center flex-wrap overflow-hidden">
         <div className="w-full h-auto flex justify-center flex-col items-center flex-w">
           <div className="bg-white  backdrop-blur-md rounded-xl shadow-xl p-6 md:p-8 flex flex-wrap justify-center items-center gap-6 w-11/12 max-w-6xl mb-5">
-            <StatCard value={11} suffix="+ years" label="Years Experience" />
+            <StatCard value={12} suffix="+ years" label="Years Experience" />
+            <div className="hidden md:block h-12 w-px bg-gray-300"></div>
+            <StatCard value={500} suffix=" Cr+" label="AUM" />
             <div className="hidden md:block h-12 w-px bg-gray-300"></div>
             <StatCard value={5} suffix=" K+" label="Happy Clients" />
             <div className="hidden md:block h-12 w-px bg-gray-300"></div>
-            <StatCard value={5} prefix="" suffix="+ " label="Branches" />
+            <StatCard value={2} prefix="" suffix="+ " label="Branches" />
             <div className="hidden md:block h-12 w-px bg-gray-300"></div>
-            <StatCard value={45} suffix="+ " label="AMC Partners" />
+            <StatCard value={54} suffix="+ " label="AMC Partners" />
           </div>
         </div>
       </div>

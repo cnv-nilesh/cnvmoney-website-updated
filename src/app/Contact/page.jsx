@@ -81,7 +81,7 @@ const page = () => {
                     </Link>
                     <div className="flex items-center gap-2">
                       <GiRotaryPhone className="text-gray-500" />
-                      <span>+91 880 660 4430</span>
+                      <span>+91 7057233394</span>
                     </div>
                   </div>
                 </div>

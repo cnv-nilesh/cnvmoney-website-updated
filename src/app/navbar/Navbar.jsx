@@ -160,13 +160,13 @@ export default function Navbar() {
               {open && (
                 <div className="absolute right-0 mt-2 w-36 bg-white rounded-md shadow-md ring-1 ring-black ring-opacity-5 z-50">
                   <a
-                    href="https://cnvmoney.my-portfolio.co.in/app/#/login"
+                    href="https://login.cnvmoney.com/app/#/login"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                   >
                     Client Login
                   </a>
                   <a
-                    href="https://cnvmoney.my-portfolio.co.in/app/#/login"
+                    href="https://login.cnvmoney.com/app/#/login"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                   >
                     Partner Login

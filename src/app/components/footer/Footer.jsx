@@ -53,51 +53,50 @@ const Footer = () => {
                 alt="logo"
                 className="flex justify-center items-center"
               />
-              <p className="text-wrap text-slate-600 text-sm">
-                ASSOCIATION OF MUTUAL FUNDS IN INDIA
-              </p>
-              <p className="text-wrap text-slate-600 text-sm">
-                REGISTERED MUTUAL FUND DISTRIBUTOR
+              <p className="text-nowrap text-slate-600 text-sm">
+                AMFI - REGISTERED MUTUAL FUND DISTRIBUTOR
               </p>
               <p className="text-wrap text-slate-600 text-sm mt-2">
                 CREDIT AND VAULT FINANCIAL SERVICES
               </p>
-              <p className="text-wrap text-slate-600 text-sm">ARN: - 114773</p>
+              <p className="text-wrap text-slate-600 text-sm mt-2">ARN: - 114773</p>
+               <p className="text-wrap text-slate-600 text-sm">ARN Valid From : 03 May 2025</p>
+               <p className="text-wrap text-slate-600 text-sm">ARN Valid Till : 14 Sep 2028</p>
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+          <div className="grid grid-cols-2 gap-6 sm:gap-4 sm:grid-cols-3">
             <div>
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                 Product
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-1">
-                  <a href="/Learn/MutualFund" className="hover:underline">
+                  <a href="/Learn/MutualFund" className="hover:underline text-sm">
                     Mutual Funds
                   </a>
                 </li>
                 <li className="mb-1">
-                  <Link href="/Learn/StockBroking" className="hover:underline">
+                  <Link href="/Learn/StockBroking" className="hover:underline text-sm">
                     Stock Broking
                   </Link>
                 </li>
                 <li className="mb-1">
-                  <a href="/Learn/Insurance" className="hover:underline">
+                  <a href="/Learn/Insurance" className="hover:underline text-sm">
                     Insurance
                   </a>
                 </li>
                 <li className="mb-1">
-                  <a href="/Learn/FixedDeposite" className="hover:underline">
+                  <a href="/Learn/FixedDeposite" className="hover:underline text-sm">
                     Fixed Deposits
                   </a>
                 </li>
                 <li className="mb-1">
-                  <a href="/Learn/PMSnAIF" className="hover:underline">
+                  <a href="/Learn/PMSnAIF" className="hover:underline text-sm">
                     PMS/AIF
                   </a>
                 </li>
                 <li className="mb-1">
-                  <a href="/Learn/Loans" className="hover:underline">
+                  <a href="/Learn/Loans" className="hover:underline text-sm">
                     Loans
                   </a>
                 </li>
@@ -109,37 +108,23 @@ const Footer = () => {
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-1">
-                  <a href="/" className="hover:underline ">
+                  <a href="/" className="hover:underline text-sm ">
                     Home
                   </a>
                 </li>
 
                 <li className="mb-1">
-                  <a href="/About" className="hover:underline">
+                  <a href="/About" className="hover:underline text-sm">
                     About Us
                   </a>
                 </li>
 
                 <li className="mb-1">
-                  <a href="/Contact" className="hover:underline">
+                  <a href="/Contact" className="hover:underline text-sm">
                     Contact us
                   </a>
                 </li>
-                <li className="mb-1">
-                  <a href="https://www.sebi.gov.in/filings/mutual-funds.html" target="blank" className="hover:underline">
-                    SID / SAI / KIM Sheets
-                  </a>
-                </li>
-                <li className="mb-1">
-                  <a href="/CodeofConduct" className="hover:underline">
-                    Code of Conduct
-                  </a>
-                </li>
-                 <li className="mb-1">
-                  <a href="/riskfactor" className="hover:underline">
-                    Risk Factor
-                  </a>
-                </li>
+                
               </ul>
             </div>
             <div>
@@ -148,13 +133,39 @@ const Footer = () => {
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-2">
-                  <Link href="/PrivacyPolicy" className="hover:underline">
+                  <Link href="/PrivacyPolicy" className="hover:underline text-sm">
                     Privacy Policy
                   </Link>
                 </li>
                 <li>
                   <Link href="/TermsConditions">Terms & Conditions</Link>
                 </li>
+                <li className="mb-1">
+                  <a href="https://www.sebi.gov.in/filings/mutual-funds.html" target="blank" className="hover:underline text-sm">
+                    SID / SAI / KIM Sheets
+                  </a>
+                </li>
+                <li className="mb-1">
+                  <a href="/CodeofConduct" className="hover:underline text-sm">
+                    Code of Conduct
+                  </a>
+                </li>
+                 <li className="mb-1">
+                  <a href="/disclaimer" className="hover:underline text-sm">
+                    Disclaimer
+                  </a>
+                </li>
+                 <li className="mb-1">
+                  <a href="https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0" target="blank" className="hover:underline text-sm">
+                    Risk Factor
+                  </a>
+                </li>
+                <li className="mb-1">
+                  <a href="/CommissionDisclosures" className="hover:underline text-sm text-nowrap">
+                    Commission Disclosures
+                  </a>
+                </li>
+                
               </ul>
             </div>
           </div>
@@ -171,7 +182,7 @@ const Footer = () => {
               ></Image>
             </div>
           </Link>
-          <Link href="https://apps.apple.com/in/app/mint-by-investwell/id1479042500">
+          <Link href="https://apps.apple.com/in/app/cnvmoney-mutual-fund-sip/id6759793756">
             <div className="flex gap-2 items-center p-2 cursor-pointer rounded-md">
               <Image
                 src={appStore}
