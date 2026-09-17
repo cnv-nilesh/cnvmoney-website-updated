@@ -198,7 +198,15 @@ export default function CommissionDisclosures() {
 
                 </div>
               </div>
+              <div className="space-y-4 text-sm leading-7 text-slate-600 sm:text-base">
+              <p>
+               Dear investors please note that investing / transacting through Regular Plans under mutual fund scheme involves distributor commission paid by the AMC’s .
+              </p>
 
+              <p>
+               Direct Plans under mutual funds available without distributor commission directly via AMC website or MF Central portal. Please connect us for procedural guidance to transact directly on AMC /RTA portals.
+              </p>
+            </div>
               {/* Contact CTA */}
               <div className="flex flex-col gap-4 rounded-xl bg-slate-900 px-5 py-6 sm:flex-row sm:items-center sm:justify-between sm:px-6">
 

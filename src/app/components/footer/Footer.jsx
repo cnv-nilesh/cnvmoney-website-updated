@@ -60,7 +60,7 @@ const Footer = () => {
                 CREDIT AND VAULT FINANCIAL SERVICES
               </p>
               <p className="text-wrap text-slate-600 text-sm mt-2">ARN: - 114773</p>
-               <p className="text-wrap text-slate-600 text-sm">ARN Valid From : 03 May 2025</p>
+               <p className="text-wrap text-slate-600 text-sm">ARN Valid From : 15 Sep 2025</p>
                <p className="text-wrap text-slate-600 text-sm">ARN Valid Till : 14 Sep 2028</p>
             </div>
           </div>
