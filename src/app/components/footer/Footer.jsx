@@ -33,6 +33,14 @@ const Footer = () => {
                 <p className="text-slate-600 text-sm">
                   Vasai West, Thane, Maharashtra - 401201
                 </p>
+
+                <div className="mt-4 mb-2">
+                  <span className="text-black font-medium"> AMFI Registered Add: </span>
+                <p className="text-slate-600 text-sm">
+                  Menodnca House, Malungi Wadi, Mulgaon, 
+                </p>
+                <p className="text-slate-600 text-sm">Vasai West, Thane 401201</p>
+                </div>
                 <div className="mt-2">
                   <div className="flex just items-center gap-1.5">
                     <MdOutlineMail size={20} color="gray" />
@@ -198,7 +206,7 @@ const Footer = () => {
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             Copyright © 2025 All Rights Reserved.
           </span>
-          <div className="flex mt-4 sm:justify-center sm:mt-0">
+          {/* <div className="flex mt-4 sm:justify-center sm:mt-0">
             <a
               href="https://www.facebook.com/cnvmoney"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
@@ -235,7 +243,7 @@ const Footer = () => {
 
               <span className="sr-only">Youtube</span>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
